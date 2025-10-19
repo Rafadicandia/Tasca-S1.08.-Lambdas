@@ -1,0 +1,4 @@
+ interface PiCalculator {
+
+    double getPiValue();
+}
