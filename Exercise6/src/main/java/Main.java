@@ -12,7 +12,7 @@ public class Main {
         variatedList.add("HelloWorld");
 
 
-        variatedList.sort((s2, s1) -> Integer.compare(s1.toString().length(), s2.toString().length()));
+        variatedList.sort((s1, s2) -> Integer.compare(s1.toString().length(), s2.toString().length()));
         variatedList.forEach(e -> System.out.println(e));
 
 
