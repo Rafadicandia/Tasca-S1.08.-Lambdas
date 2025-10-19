@@ -6,10 +6,10 @@ public class Main {
         ArrayList<String> fruits = new ArrayList<String>();
         fruits.add("Banana");
         fruits.add("Apple");
-        fruits.add("Orange");
+        fruits.add("Orang");
         fruits.add("Watermelon");
         fruits.add("Kiwi");
 
-        fruits.forEach((n) -> { if(n.matches(".*[oO].*")) {System.out.println(n);} });
+        fruits.forEach((n) -> { if(n.matches(".*[oO].*") && n.length()>5) {System.out.println(n);} });
     }
 }
