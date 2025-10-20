@@ -1,4 +1,5 @@
- interface PiCalculator {
+@FunctionalInterface
+interface PiCalculator {
 
     double getPiValue();
 }
